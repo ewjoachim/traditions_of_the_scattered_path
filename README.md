@@ -14,3 +14,5 @@ Little is known of this, except what the author said about it:
 
 We're trying to decipher the booklet. If you're interested in taking part, drop me a
 line (twitter @ewjoachim or open an issue).
+
+We have a Discord server, contact me for an invite.
