@@ -1,0 +1,17 @@
+{
+  "name": "scattered_path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run format && node src/main.js",
+    "format": "prettier --write 'src/**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "pngjs": "^5.0.0",
+    "prettier": "^2.0.5"
+  }
+}
