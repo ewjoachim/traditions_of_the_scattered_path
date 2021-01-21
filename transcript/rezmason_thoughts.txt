@@ -1,0 +1,76 @@
+Thoughts.txt
+
+Domain constraints
+  This book was written and designed by:
+    @rebuscube
+      source: https://kotaku.com/the-puzzle-of-a-lifetime-1821235999
+        an American man
+        who speaks English fluently and predominantly
+        a game designer
+        a former software engineer
+        an artist
+        born in the mid-70s
+        grew up in Massachusetts
+        has lived for a long time in Berkeley, CA
+  This book exists in the game world of Gorogoa
+    Its existence may be the first time we learn that the hyperlinking we do in-game is a "tradition"
+    If the book also turns out to be a hypertext, we shouldn't be surprised
+    Most books in Gorogoa are about mystical esoterica; that may be true of this text
+  This book was digitally produced
+    A professional text layout tool was used, probably InDesign
+  Sources of error or data loss
+    We're human
+      Converting scans to lines
+      Breaking lines into glyphs
+      Identifying glyphs
+      Recombining glyphs into text
+    The author is human
+      Spell-check doesn't work on invented languages
+      (Even if they're written in ASCII on a US keyboard layout)
+    The manufacturers and publishers are human
+      It's possible the pages changed order, but probably not
+  This language is 22 characters
+    So the characters probably share properties with letters of existing alphabets, most likely the  English alphabet
+    Once we have a text, we can use statistical analysis to assign letters to glyphs
+      Individual glyph frequency
+      Glyph neighbor frequency
+  This writing system is not doing any heavy lifting
+    The only real punctuation is the period
+    No commas, semicolons, colons
+    No quote marks
+    The hyphen is only used to break a word between lines
+    No upper and lower case
+      Some paragraphs begin with a drop cap, though, to indicate some logical division of the text
+    We can assume that whatever's been written, is written in a "simple way"
+  The blue and yellow text on the cover might allude to the blue and yellow goals in the game
+  The division between blue and yellow on the cover is vertical, and splits an image of a book down the middle
+    Might this mean that some text columns on different pages can be joined together?
+    Or different booklets? Do we know for a fact that there's only one version of this booklet?
+
+Goal 1: make the text and font for the body of the booklet
+  Identify every glyph (~17,744) from every line (807) on every page of text (20)
+  Compile identified glyphs back into clumps of lines of text
+  Make a font in Illustrator
+    Trace the glyphs, export as SVG, shove into an online font generator
+  Retype the full text into text boxes in InDesign with the new font
+    Letter spacing is going to be annoying
+    Use overlay technique for accuracy
+    Use hidden whitespace characters to guarantee proper word separation
+  Update TXT from InDesign text
+    Preserve paragraph separation
+    Remove hyphens and unnecessary newlines
+  Reach out to @rebuscube
+
+Proposal
+  Do the best we can
+  Show our work, without infringing on copyright
+  From time to time, check in with @rebuscube
+    If we've made proven progress, we ask for inessential assistance like verification or suggested methodology improvements
+
+Wrong hypotheses
+  The writing system is an abugida
+    Why?
+      There are four glyphs on the cover and there are four syllables in "Gorogoa"
+    Why not?
+      The "Go-" syllables in "GOroGOa" correspond to two different glyphs on the cover
+      It's doubtful that @rebuscube would have done that, especially with the most prominently displayed text
